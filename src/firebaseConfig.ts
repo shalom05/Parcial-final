@@ -2,12 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore,addDoc, serverTimestamp, collection, getDocs, } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCOPhAvavMNND2shDVA68dZBDWokCQ3cQY",
-  authDomain: "data-algoritmos-5e26d.firebaseapp.com",
-  projectId: "data-algoritmos-5e26d",
-  storageBucket: "data-algoritmos-5e26d.appspot.com",
-  messagingSenderId: "1080782283856",
-  appId: "1:1080782283856:web:b134f5162151770b379d55"
+
 };
 
 const app = initializeApp(firebaseConfig);
